@@ -2,5 +2,5 @@ import keyword
 
 #print all the python keywords
 
-print("Python keywords are... /n")
+print("I have to know Python keywords are... /n")
 print(keyword.kwlist)
