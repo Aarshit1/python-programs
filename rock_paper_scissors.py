@@ -8,7 +8,7 @@ while True:
     print("you chose", user, ", computer chose",computer)
 
     if computer==user:
-        print("both chose {user}, its a tie")
+        print("both chose ",user," its a tie")
     elif user=="rock":
         if computer=="scissors":
             print("you win")
