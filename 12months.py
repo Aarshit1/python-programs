@@ -1,13 +1,4 @@
-print("The 12 months are :\n")
-print("January")
-print("February")
-print("March")
-print("April")
-print("May")
-print("June")
-print("July")
-print("August")
-print("September")
-print("October")
-print("November")
-print("December")
+import calendar
+
+for month in range(1, 13):
+    print(calendar.month_name[month])
